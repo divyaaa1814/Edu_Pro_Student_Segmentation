@@ -174,8 +174,8 @@ python -m streamlit run app/app.py
 
 # Author 
 
-Divyaa Parikh 
-Student of B.Sc. Data Science 
+Divyaa Parikh'''
+Student of B.Sc. Data Science'''
 Department of Technology, Savitribai Phule University 
 
 ---
