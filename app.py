@@ -585,7 +585,7 @@ project_folder = Path(__file__).parent.parent
 data_folder = project_folder / "src"
 outputs_folder = data_folder / "outputs"
 
-excel_file = data_folder / "data" / "EduPro Online Platform.xlsx"
+excel_file = "data/EduPro Online Platform.xlsx"
 
 users = pd.read_excel(
     excel_file,
