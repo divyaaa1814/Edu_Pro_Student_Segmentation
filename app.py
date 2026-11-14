@@ -583,7 +583,7 @@ with st.sidebar:
 
 project_folder = Path(__file__).parent.parent
 data_folder = project_folder / "src"
-outputs_folder = data_folder / "outputs"
+outputs_folder = Path("outputs")
 
 excel_file = "data/EduPro Online Platform.xlsx"
 
