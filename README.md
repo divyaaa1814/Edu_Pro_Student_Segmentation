@@ -3,7 +3,7 @@
 
 AI-powered learner segmentation (K=4, 84.2% intra-cluster similarity) and hybrid course recommender (81.6% Precision@5) built with Python, Scikit-Learn, and Streamlit.
 
-* **Live Streamlit Dashboard:** [http://localhost:8501](#)
+* **Live Streamlit Dashboard:** https://eduprostudentsegmentation-ffnzywydmv6jjpedcthn9n.streamlit.app/
 * **Research Report (Google Doc):** [https://drive.google.com/drive/folders/1ylHH5blMTr3EdYmidVp2EzzKe-R2P58R]
 
 ---
