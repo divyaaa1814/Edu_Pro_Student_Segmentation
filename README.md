@@ -134,39 +134,6 @@ The live web application (`app/app.py`) includes four interactive modules[cite: 
 
 ---
 
-## 📂 Project Structure
-```text
-Edu_Pro_Student_Segmention/
-│
-├── app/
-│   └── app.py                         # Main Streamlit dashboard application
-│
-├── src/
-│   ├── Data/
-│   │   └── EduPro Online Platform.xlsx # Raw dataset (Users, Courses, Transactions)
-│   │
-│   ├── models/
-│   │   ├── encoder.pkl                # Fitted categorical encoder
-│   │   ├── kmeans_model.pkl           # Trained K-Means clustering model (K=4)
-│   │   └── scaler.pkl                 # Fitted numerical feature scaler
-│   │
-│   ├── Notebooks/
-│   │   └── EduPro_Analysis.ipynb      # EDA, feature engineering, clustering & evaluation notebook
-│   │
-│   └── outputs/
-│       ├── cluster_summary.csv        # Statistical summary metrics per segment
-│       ├── learner_profiles.csv       # Learner profiles with engineered features & cluster IDs
-│       └── recommendations.csv        # Pre-computed personalized course recommendations
-│
-├── edu_pro.gitignore                  # Git ignore rules
-├── Executive_Summary.md               # Stakeholder summary brief
-├── README.md                          # Project documentation
-└── requirements.txt                   # Python libraries required to run the project
-'''
-
---- 
-
-
 # Running the Project 
 
 ## Install Dependencies
@@ -217,5 +184,41 @@ Department of Technology, Savitribai Phule University
 # Acknowledgement
 
 Special thanks to Unified Mentor and the Toronto Government Parks, Forestry & Recreation initiative for providing the project framework, problem scope, and real-world workforce upskilling context.
+
+
+---
+
+## 📂 Project Structure
+```text
+Edu_Pro_Student_Segmention/
+│
+├── app/
+│   └── app.py                         # Main Streamlit dashboard application
+│
+├── src/
+│   ├── Data/
+│   │   └── EduPro Online Platform.xlsx # Raw dataset (Users, Courses, Transactions)
+│   │
+│   ├── models/
+│   │   ├── encoder.pkl                # Fitted categorical encoder
+│   │   ├── kmeans_model.pkl           # Trained K-Means clustering model (K=4)
+│   │   └── scaler.pkl                 # Fitted numerical feature scaler
+│   │
+│   ├── Notebooks/
+│   │   └── EduPro_Analysis.ipynb      # EDA, feature engineering, clustering & evaluation notebook
+│   │
+│   └── outputs/
+│       ├── cluster_summary.csv        # Statistical summary metrics per segment
+│       ├── learner_profiles.csv       # Learner profiles with engineered features & cluster IDs
+│       └── recommendations.csv        # Pre-computed personalized course recommendations
+│
+├── edu_pro.gitignore                  # Git ignore rules
+├── Executive_Summary.md               # Stakeholder summary brief
+├── README.md                          # Project documentation
+└── requirements.txt                   # Python libraries required to run the project
+'''
+
+--- 
+
 
 
